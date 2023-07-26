@@ -1,0 +1,269 @@
+body {
+    margin: 0;
+    background-color: #5F493A;
+    display: block;
+    overflow-x: hidden;
+    height:fit-content;
+}
+
+.navBar {
+    display: flow-root;
+    position: relative;
+    height: 137px;
+    border-bottom: 10px solid #FFF;
+    background: #9C9600;
+    margin: 0px;
+}
+
+/*EBLogo*/
+#eBLogo {
+    position: absolute;
+    left: 88px;
+    bottom: 19px;
+    height: 104px;
+    width: 105px;
+    z-index: 1;
+    flex-shrink: 0;
+}
+
+ nav ul {
+    color: #FFFFFF;
+    list-style: none;
+    font-family: 'Rosario';
+    font-size: 36px;
+    display: flex;
+    justify-content: flex-end;
+    
+}
+
+
+li {
+    z-index: 1;
+    margin-right: 60px;
+    margin-top: 7px;
+}
+
+li #facebook {
+    margin-right: 40px;
+}
+
+.sponge-holes {
+    
+}
+
+
+/*holes*/
+.hole {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: #837D01;
+}
+
+
+.hole-1 {
+    position: absolute;
+    right: 1450px;
+    left: -26px;
+    top: -32px;
+    width: 124px;
+    height: 124px;
+    flex-shrink: 0;
+}
+
+.hole-2 {
+    
+    position: absolute;
+    top: 54px;
+    left: 222px;
+    Right: 1297px;
+    bottom: 948px;
+    width: 55px;
+    height: 55px;
+    flex-shrink: 0;
+}
+
+.hole-3 {
+    position: absolute;
+    left: 437px;
+    right: 920px;
+    width: 155px;
+    height: 155px;
+    flex-shrink: 0;
+    top: -32px;
+}
+.hole-4 {
+    position: absolute;
+    left: 729px;
+    right: 688px;
+    top: 18px;
+    width: 95px;
+    height: 95px;
+    flex-shrink: 0;
+}
+
+/*Half Circle Below*/
+.hole-5 {
+    width: 303px;
+    height: 153px;
+    border-radius: 153px 153px 0 0;
+    overflow: hidden;
+    position: absolute;
+    right: 231px;
+    left: 978px;
+    top: -16px;
+}
+
+.hole-6 {
+    position: absolute;
+    left: 1479px;
+    right: 0px;
+    top: 28px;
+    width: 95px;
+    height: 95px;
+    flex-shrink: 0;
+}
+
+.spongeTie {
+    display: flex;
+    justify-content: center;
+}
+   
+   /*Spongtie*/
+.knot {
+    position: absolute;
+    height: 0px;
+    width: 0px;
+    border-left: 83.5px solid transparent;
+    border-right: 83.5px solid transparent;
+    border-top: 151px solid #296C00;
+    border-bottom: 0;
+    z-index: 1;
+}
+.knotBorder {
+    position: absolute;
+    height: 0px;
+    width: 0px;
+    border-left: 87.5px solid transparent;
+    border-right: 87.5px solid transparent;
+    border-top: 158px solid black;
+    border-bottom: 0;
+}
+.topNeckBorder {
+    position: absolute;
+    width: 0;
+    height: 0;
+    border: 87.5px solid transparent;
+    border-bottom: 158px solid black;
+    transform: translate(0px, 67px);
+}
+   
+.topNeck {
+    position: absolute;
+    width: 0;
+    height: 0;
+    border: 83.5px solid transparent;
+    border-bottom: 151px solid #296C00;
+    transform: translate(0px, 79px);
+   }
+   
+.bottomNeckBorder {
+    position: absolute;
+    width: 0;
+    height: 0;
+    border: 87.5px solid transparent;
+    border-top: 158px solid black;
+    transform: translate(0px, 312px);
+}
+   
+.bottomNeck {
+    position: absolute;
+    width: 0;
+    height: 0;
+    border: 83.5px solid transparent;
+    border-top: 151px solid #296C00;
+    transform: translate(0px, 312px);
+}
+
+.me {
+    grid-template-columns: 1fr 1fr;
+    display: grid;
+    margin: 40px;
+    grid-gap: 20px;
+    padding: 20px;
+}
+
+.blubber img {
+    max-width: 100%;
+    height:auto;
+}
+
+.blubber {
+    z-index: 1;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+h1 {
+    z-index: 1;
+    font-family: 'Rosario';
+    text-align: center;
+    font-size: 36px;
+    color: #FFFFFF;
+    font-weight: 100;
+
+}
+
+p {
+    z-index: 1;
+    text-align: center;
+    font-family: 'SF Compact Text';
+    font-size: 32px;
+    color: #FFFFFF;
+}
+
+.spongebob-socks-footer {
+    display: flex;
+    position: relative;
+    background-color: white;
+    height: 273px;
+    width: 100%;
+    text-align: center;
+    background-image: linear-gradient(#9C9600 26px, #FFFFFF 0, #FFFFFF 52px, #0057BE 0, #0057BE 78px, #FFFFFF 0, #FFFFFF 104px, #9F0000 0, #9F0000 130px, #FFFFFF 0, #FFFFFF 247px, #000 0, #000 273px);
+
+}
+
+#bot {
+    color: #000;
+    font-family: 'Rosario';
+    font-size: 36px;
+    font-weight: 100;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin-top: 162px;
+}
+
+.copyright{
+    font-size: 12px;
+    position: absolute;
+    color: #FFF;
+    left: 0;
+    right: 0;
+    padding-bottom: 6px;
+    bottom: 0;   
+}
+
+@font-face {
+    font-family: 'Rosario';
+    src: url('/Fonts/static/Rosario-Regular.ttf') format('truetype');
+} 
+
+@font-face {
+    font-family: 'SF Compact Text';
+    src: url('../Fonts/SF_Compact_Text/SF-Compact-Text-Regular.otf')
+}
